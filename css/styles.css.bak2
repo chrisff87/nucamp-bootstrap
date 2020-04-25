@@ -3,7 +3,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: "Pacifico", cursive;
 }
 
 h2 {
@@ -21,7 +21,7 @@ header h2 {
 
 .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: linear-gradient(to right, black, #3046C5, #60106B);
     color: white;
     margin: 0px;
 }
@@ -38,4 +38,12 @@ header h2 {
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid black
+}
+
+h3.card-header {
+    background-color: black;
 }
