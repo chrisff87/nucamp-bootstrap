@@ -6,13 +6,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-
-    <!-- endbuild -->
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
 
     <title>NuCamp: A Better Way To Camp</title>
@@ -35,7 +32,7 @@
                 </div>
                 <!-- Reserve button -->
                 <div class="col-md-4 col-xl-2">
-                    <a id="reserveButton" role="button" class="btn btn-info btn-lg mt-4"> Reserve a Campsite </a>                
+                    <a data-toggle="modal" data-target="#reserveModal" role="button" class="btn btn-info btn-lg mt-4"> Reserve a Campsite </a>                
                 </div>
             </div>
         </div>
@@ -115,7 +112,7 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"> <i class="fa fa-address-card fa-lg"> </i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a id="loginButton">
+                    <a data-toggle="modal" data-target="#loginModal">
                         <i class="fa fa-sign-in"></i> Login </a>
                 </span>
             </div>
@@ -206,11 +203,6 @@
                     <span class="carousel-control-next-icon"></span>
                     <span class="sr-only"> Next </span>
                 </a>
-
-                <!-- Button Controls-->
-                <button class="btn btn-danger btn-sm" id="carouselButton">
-                    <i class="fa fa-pause"></i>
-                </button>
             </div>
         </div>
     </div>
@@ -299,12 +291,10 @@
         </div>
     </footer>
 
-    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <!-- endbuild -->
+
 </body>
 
 </html>
